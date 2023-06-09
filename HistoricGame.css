@@ -1,0 +1,47 @@
+html {
+    background-image: url(https://img.freepik.com/vector-premium/formulas-fisicas-ciencia-ilustracion-dibujada-mano-fenomenos_40453-2861.jpg?w=740);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.818);
+}
+#question-container {
+    margin-top: 50px;
+}
+.choice {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.choice:hover {
+    background-color: #ddd;
+}
+.selected {
+    background-color: #3f51b5;
+    color: rgba(255, 255, 255, 0.831);
+}
+#submit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: rgba(255, 255, 255, 0.734) 0.3s ease;
+    margin-top: 10px;
+}
+#submit:hover {
+    background-color: #555;
+}
+#result {
+    margin-top: 50px;
+}
